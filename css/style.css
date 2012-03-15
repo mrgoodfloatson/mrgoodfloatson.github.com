@@ -5,7 +5,12 @@ body {
   color: #ffffff;
 }
 h3 {
-  color: #ffffff
+  color: #ffffff;
+  font-family: 'helvetica neue', 'tahoma', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 #main {
   float: right;
