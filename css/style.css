@@ -1,7 +1,12 @@
 body { 
-background-image:url('the-fair.png');
-color: #ffffff;
+  background-color: #000;
+  background-image: url('../the-fair.png');
+  background-repeat: no-repeat;
+  color: #ffffff;
 }
 h3 {
-color: #ffffff
+  color: #ffffff
+}
+#main {
+  float: right;
 }
