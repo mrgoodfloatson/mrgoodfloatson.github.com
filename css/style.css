@@ -1,15 +1,35 @@
-body { 
+.navbar-inner {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2c2c2c;
+  background-image: -moz-linear-gradient(top, #b31b1b, #000000);
+  background-image: -ms-linear-gradient(top, #b31b1b, #000000);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b31b1b), to(#000000));
+  background-image: -webkit-linear-gradient(top, ##b31b1b, ##000000);
+  background-image: -o-linear-gradient(top, #b31b1b, #000000);
+  background-image: linear-gradient(top, #b31b1b, #000000);
+  background-repeat: repeat-x;
+ } 
+body {    
   background-color: #000;
   background-image: url('../the-fair.png');
   background-repeat: no-repeat;
   color: #ffffff;
 }
 h3 {
-  color: #ffffff;
-  font-family: 'helvetica neue', 'tahoma', sans-serif;
+  color: #fef0db;
+  font-family: 'helvetica neue', tahoma, sans-serif;
   font-weight: 100;
   font-size: 30px;
   line-height: 30px;
+  letter-spacing: 1px;
+}
+h2 { 
+  color: #fef0db;
+  font-family: 'helvetica neue', tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 20px;
   letter-spacing: 1px;
 }
 #main {
